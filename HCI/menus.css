@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4c4b3f;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .book-btn {
+    padding: 6px 12px;
+    background: white;
+    color: #4c4b3f;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero img.hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2rem;
+    padding: 3rem;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .menu-item {
+    width: 200px;
+    height: 120px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-item h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .menu-item a {
+    color: #000;
+    font-size: 0.9rem;
+    text-decoration: underline;
+  }
+  
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background: #7c7755;
+    color: white;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    min-width: 200px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column input {
+    display: block;
+    margin: 5px 0;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+  }
+  

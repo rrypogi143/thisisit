@@ -1,0 +1,612 @@
+.frame-screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame-screen .frame-2 {
+    background-blend-mode: hue;
+    background-color: #ffffff;
+    height: 4093px;
+    overflow: hidden;
+    position: relative;
+    width: 1447px;
+  }
+  
+  .frame-screen .overlap {
+    height: 908px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1485px;
+  }
+  
+  .frame-screen .rectangle {
+    background-color: #706d54f7;
+    height: 133px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1485px;
+  }
+  
+  .frame-screen .grand-orchard {
+    color: #ffffff;
+    font-family: "Trirong-Bold", Helvetica;
+    font-size: 31px;
+    font-weight: 700;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 25px;
+    transform: rotate(0.15deg);
+    width: 400px;
+  }
+  
+  .frame-screen .restaurant {
+    color: #ffffff;
+    font-family: "Trirong-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 113px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 56px;
+    width: 326px;
+  }
+  
+  .frame-screen .HIHIHI {
+    height: 781px;
+    left: 0;
+    position: absolute;
+    top: 127px;
+    width: 1447px;
+  }
+  
+  .frame-screen .frame-3 {
+    left: 439px !important;
+    position: absolute !important;
+    top: 32px !important;
+    width: 147px !important;
+  }
+  
+  .frame-screen .frame-4 {
+    left: 591px !important;
+    position: absolute !important;
+    top: 32px !important;
+    width: 159px !important;
+  }
+  
+  .frame-screen .frame-instance {
+    left: 750px !important;
+    position: absolute !important;
+    top: 32px !important;
+    width: 129px !important;
+  }
+  
+  .frame-screen .frame-6-instance {
+    left: 879px !important;
+    position: absolute !important;
+    top: 32px !important;
+  }
+  
+  .frame-screen .frame-7-instance {
+    left: 1195px !important;
+    position: absolute !important;
+    top: 38px !important;
+  }
+  
+  .frame-screen .what-s-on {
+    color: #ffffff;
+    font-family: "Viaoda Libre-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 594px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 723px;
+    white-space: nowrap;
+    width: 491px;
+  }
+  
+  .frame-screen .overlap-group {
+    background-image: url(./kaon3-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 487px;
+    left: 0;
+    position: absolute;
+    top: 968px;
+    width: 390px;
+  }
+  
+  .frame-screen .RAAAAHH {
+    height: 487px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 390px;
+  }
+  
+  .frame-screen .hihihi {
+    height: 487px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 1889px;
+    width: 390px;
+  }
+  
+  .frame-screen .humanako {
+    height: 487px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 2779px;
+    width: 390px;
+  }
+  
+  .frame-screen .abas {
+    height: 487px;
+    left: 528px;
+    object-fit: cover;
+    position: absolute;
+    top: 1889px;
+    width: 390px;
+  }
+  
+  .frame-screen .haikobayot {
+    height: 487px;
+    left: 1050px;
+    object-fit: cover;
+    position: absolute;
+    top: 968px;
+    width: 390px;
+  }
+  
+  .frame-screen .anniebayot {
+    height: 487px;
+    left: 511px;
+    object-fit: cover;
+    position: absolute;
+    top: 968px;
+    width: 390px;
+  }
+  
+  .frame-screen .frame-8 {
+    background-color: #706d54;
+    height: 391px;
+    left: 7px;
+    position: absolute;
+    top: 3694px;
+    width: 1440px;
+  }
+  
+  .frame-screen .overlap-2 {
+    height: 212px;
+    left: 105px;
+    position: absolute;
+    top: 48px;
+    width: 212px;
+  }
+  
+  .frame-screen .first-name-surname {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 158px;
+  }
+  
+  .frame-screen .span {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .frame-screen .text-wrapper-3 {
+    font-size: 18px;
+  }
+  
+  .frame-screen .line {
+    height: 3px;
+    left: 1px;
+    position: absolute;
+    top: 77px;
+    width: 211px;
+  }
+  
+  .frame-screen .img {
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 143px;
+    width: 211px;
+  }
+  
+  .frame-screen .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 102px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+    width: 202px;
+  }
+  
+  .frame-screen .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 411px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 202px;
+  }
+  
+  .frame-screen .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 687px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+    width: 262px;
+  }
+  
+  .frame-screen .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 1088px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+    white-space: nowrap;
+    width: 202px;
+  }
+  
+  .frame-screen .line-2 {
+    height: 3px;
+    left: 106px;
+    position: absolute;
+    top: 262px;
+    width: 211px;
+  }
+  
+  .frame-screen .book-a-table-contact {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 411px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 87px;
+    width: 199px;
+  }
+  
+  .frame-screen .opening-hours-monday {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 688px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 81px;
+    width: 199px;
+  }
+  
+  .frame-screen .overlap-group-2 {
+    height: 186px;
+    left: 1088px;
+    position: absolute;
+    top: 80px;
+    width: 265px;
+  }
+  
+  .frame-screen .grand-orchard-2 {
+    color: #ffffff;
+    font-family: "Vesper Libre-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 265px;
+  }
+  
+  .frame-screen .true-ig {
+    height: 28px;
+    left: 30px;
+    object-fit: cover;
+    position: absolute;
+    top: 125px;
+    width: 53px;
+  }
+  
+  .frame-screen .fb {
+    height: 39px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 119px;
+    width: 39px;
+  }
+  
+  .frame-screen .fb-2 {
+    height: 1px;
+    left: 1189px;
+    object-fit: cover;
+    position: absolute;
+    top: 317px;
+    width: 1px;
+  }
+  
+  .frame-screen .text-wrapper-8 {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1492px;
+    width: 279px;
+  }
+  
+  .frame-screen .text-wrapper-9 {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2413px;
+    width: 434px;
+  }
+  
+  .frame-screen .p {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3310px;
+    width: 429px;
+  }
+  
+  .frame-screen .text-wrapper-10 {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 528px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2413px;
+    width: 368px;
+  }
+  
+  .frame-screen .tuesday-plat-du-jour {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 1050px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1482px;
+    width: 344px;
+  }
+  
+  .frame-screen .text-wrapper-11 {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 511px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1482px;
+    width: 456px;
+  }
+  
+  .frame-screen .join-us-for-a {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1548px;
+    width: 347px;
+  }
+  
+  .frame-screen .channel-your-inner {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 520px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1588px;
+    width: 381px;
+  }
+  
+  .frame-screen .join-us-every {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1067px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1588px;
+    width: 335px;
+  }
+  
+  .frame-screen .step-into-a-night-in {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2482px;
+    width: 388px;
+  }
+  
+  .frame-screen .join-us-for-a-taste {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 534px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2482px;
+    width: 365px;
+  }
+  
+  .frame-screen .overlap-3 {
+    height: 260px;
+    left: 46px;
+    position: absolute;
+    top: 3410px;
+    width: 414px;
+  }
+  
+  .frame-screen .for-every-paying {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 414px;
+  }
+  
+  .frame-screen .frame-12-instance {
+    background-color: #706d54 !important;
+    left: 2px !important;
+    position: absolute !important;
+    top: 212px !important;
+  }
+  
+  .frame-screen .akonalngsana {
+    height: 487px;
+    left: 1050px;
+    object-fit: cover;
+    position: absolute;
+    top: 1889px;
+    width: 390px;
+  }
+  
+  .frame-screen .text-wrapper-12 {
+    color: #000000;
+    font-family: "Vidaloka-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 1057px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2413px;
+    width: 345px;
+  }
+  
+  .frame-screen .indulge-in-a-unique {
+    color: #000000;
+    font-family: "Ibarra Real Nova-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1067px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2478px;
+    width: 335px;
+  }
+  
+  .frame-screen .design-component-instance-node {
+    background-color: #706d54 !important;
+    left: 20px !important;
+    position: absolute !important;
+    top: 1756px !important;
+  }
+  
+  .frame-screen .frame-9 {
+    background-color: #706d54 !important;
+    left: 38px !important;
+    position: absolute !important;
+    top: 2687px !important;
+  }
+  
+  .frame-screen .frame-10 {
+    background-color: #706d54 !important;
+    left: 534px !important;
+    position: absolute !important;
+    top: 2770px !important;
+  }
+  
+  .frame-screen .frame-11 {
+    background-color: #706d54 !important;
+    left: 1078px !important;
+    position: absolute !important;
+    top: 2770px !important;
+  }
+  

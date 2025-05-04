@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header centering styles */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    position: relative;
+  }
+  
+  .back-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  
+  /* Hero section takes full screen width */
+  .hero {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .hero img.hero-image {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Floating booking box inside image */
+  .booking-box {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 1.5rem;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1;
+    margin: 0;
+  }
+  
+  .booking-box h3 {
+    color: #c00;
+    margin-bottom: 0.75rem;
+  }
+  
+  .booking-box p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .booking-form select,
+  .booking-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-form button {
+    background-color: #c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #ffeeff;
+    padding: 2rem;
+    color: #000;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-divider {
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+  }
+  
+  .red {
+    color: #c00;
+  }
+  
+  @media (max-width: 600px) {
+    .footer-columns {
+      flex-direction: column;
+    }
+  
+    .footer-divider {
+      display: none;
+    }
+  }
+  
